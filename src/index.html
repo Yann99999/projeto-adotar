@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="shortcut icon" href="assets/imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <title>Projeto Adotar</title>
+</head>
+
+<body>
+    <div class="w-full h-screen bg-dog bg-no-repeat bg-cover bg-scroll md:bg-fixed relative bg-top">
+        <div class="bg-black w-full h-screen opacity-80"></div>
+        <header id="top">
+            <div class="w-full flex items-center justify-around bg-cyan-main md:absolute top-0 fixed z-40">
+                <img src="assets/imgs/logo.png" alt="logo do projeto" class="w-20 md:w-28">
+                <nav>
+                    <ul class="hidden md:flex justify-around items-center gap-20 text-white text-xl">
+                        <li><a href="#about">Sobre Nós</a></li>
+                        <li><a href="#comunity">Comunidade</a></li>
+                        <li><a href="#pets">Pets</a></li>
+                        <li><a href="#contact">Fale Conosco</a></li>
+                    </ul>
+                    <span id="open-menu" class="block text-white text-2xl md:hidden"><i class="bi bi-list"></i></span>
+                </nav>
+            </div>
+            <div id="menu-mobile"
+                class=" top-0 fixed transition-all ease-in-out w-mobile h-screen z-50 bg-slate-50 -right-mobile">
+                <ul id="list-mobile"
+                    class="flex flex-col gap-5 items-center justify-center m-auto text-black text-xl z-20 my-9">
+                    <span id="close-menu" class="block text-black text-3xl mb-4"><i class="bi bi-x"></i></span>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#comunity">Comunidade</a></li>
+                    <li><a href="#pets">Pets</a></li>
+                    <li><a href="#contact">Fale Conosco</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section id="intro">
+                <div class="text-white font-extrabold text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    <h1 class="text-font-mobile md:text-font-md">Projeto Adotar</h1>
+                    <a href="#about" class="flex flex-col items-center md:text-xl mt-3 text-sm">
+                        <span>Saiba Mais</span>
+                        <i class="bi bi-arrow-down"></i>
+                    </a>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="w-full p-20 md:grid md:grid-cols-3 m-auto flex flex-col gap-5 text-center">
+                    <article class="my-10 col-span-1 md:mx-10 order-1">
+                        <h2 class="text-2xl mb-6">Quem Somos?</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda saepe a eos minus aut?
+                            Placeat dolore labore quibusdam sint error atque sequi unde iure voluptate, laudantium
+                            facilis repudiandae nemo harum.</p>
+                    </article>
+                    <article class="my-10 col-span-1 md:mx-10 order-3 md:order-2">
+                        <img src="assets/imgs/logo.png" alt="logo do projeto" class="rounded shadow-black shadow-xl" />
+                    </article>
+                    <article class="my-10 col-span-1 md:mx-10 order-2 md:order-3">
+                        <h2 class="text-2xl mb-6">Iniciativa</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, quidem quo nobis
+                            exercitationem nisi provident dignissimos dolores neque, minus a facere laborum recusandae
+                            aut atque reprehenderit, possimus quia est eum?</p>
+                    </article>
+                </div>
+                <div class="border-2 border-gray-200 w-4/5 mx-auto rounded"></div>
+            </section>
+
+            <section id="comunity">
+                <div class="w-4/5 flex justify-center items-center flex-col gap-2 mx-auto mt-24 mb-44 rounded-xl">
+                    <h2 class="text-3xl">Comunidade</h2>
+                    <div class="bg-cyan-main w-28 h-1"></div>
+                    <div class="flex flex-shrink flex-col w-full md:p-5 mt-10">
+                        <ul class="flex items-center justify-start w-full bg-gray-200">
+                            <li class="comunity-list selected">Missão</li>
+                            <li class="comunity-list ">Ajude</li>
+                            <li class="comunity-list ">Importante</li>
+                        </ul>
+                        <div class="container border-2 border-cyan-main">
+                            <div class="box block selected">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, fuga, placeat
+                                suscipit commodi itaque quo eaque nihil ducimus quasi porro ab, exercitationem ex quas
+                                sapiente sunt dolores. Dolor, maiores quae?
+                            </div>
+                            <div class="box hidden">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima libero animi delectus
+                                ducimus tempore deserunt dolores optio quod maxime earum, natus explicabo eum! Sed
+                                dolorem itaque labore illum consequuntur pariatur.
+                            </div>
+                            <div class="box hidden">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, eaque. Sapiente similique
+                                omnis nisi ratione at magni! Delectus ipsum, veritatis aut itaque iure optio ex id
+                                voluptates quidem animi nobis.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2 border-gray-200 w-4/5 mx-auto rounded"></div>
+            </section>
+
+            <section id="pets">
+                <div class="my-20 flex flex-col mx-auto items-center justify-center">
+                    <h2 class="text-3xl text-center">Pets</h2>
+                    <div class="bg-cyan-main w-10 h-1"></div>
+                </div>
+                <div class="w-95vw flex justify-center items-center flex-col mx-auto mt-20 rounded-xl overflow-hidden">
+                    <div class="mb-20 flex justify-center items-center md:gap-5">
+                        <div>
+                            <button id="prev">
+                                <i class="bi bi-caret-left-fill text-cyan-main text-5xl"></i>
+                            </button>
+                        </div>
+                        <div class="card">
+                            <img src="assets/imgs/fundo.jpg" alt="cachorro rindo no quintal" class="card-img-pet" id="pet-img">
+                            <h3 class="text-center text-2xl my-3" id="pet-name">Thor</h3>
+                            <p class="text-center" id="pet-desc">Brincalhão, bagunceiro e carinhoso</p>
+                            <a href="#" class="adopt-link">Adotar
+                                amiguinho</a>
+                        </div>
+                        <div>
+                            <button id="next">
+                                <i class="bi bi-caret-right-fill text-cyan-main text-5xl"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-2 border-gray-200 w-4/5 mx-auto rounded"></div>
+            </section>
+
+            <section id="contact">
+                <div class="my-20 flex flex-col mx-auto items-center justify-center">
+                    <h2 class="text-3xl text-center">Fale Conosco</h2>
+                    <div class="bg-cyan-main w-28 h-1"></div>
+                    <div class="container mb-10 w-80vw md:w-35vw">
+                        <form id="form">
+                            <div class="flex flex-col h-600px p-10 mx-auto relative">
+                                <div class="my-3 flex flex-col">
+                                    <label class="mb-4 text-black">Nome:</label>
+                                    <input type="text" placeholder="Digite seu nome" class="input-form" />
+                                </div>
+                                <div class="my-3 flex flex-col">
+                                    <label class="mb-4 text-black">E-mail:</label>
+                                    <input type="email" placeholder="email@email.com.br" class="input-form" />
+                                </div>
+                                <div class="my-3 flex flex-col">
+                                    <label class="mb-4 text-black">Assunto</label>
+                                    <input type="text" placeholder="Assunto" class="input-form" />
+                                </div>
+                                <div class="my-3 flex flex-col">
+                                    <label class="mb-4 text-black">Mensagem:</label>
+                                    <textarea class="h-28 resize-none input-form" placeholder="Mensagem"></textarea>
+                                </div>
+                                <button type="submit" class="send-btn" onclick="handleForm()">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="bg-cyan-main p-20 text-white flex flex-col items-center justify-center relative w-full">
+                <a href="#top" class="p-2 w-full text-center bg-cyan-600 absolute top-0 hover:bg-cyan-700">Voltar ao
+                    início</a>
+
+                <div
+                    class="grid grid-cols-1 md:grid-cols-3 place-content-center place-items-start mx-auto pb-12 border-b-2 border-gray-100">
+                    <div class="order-2 md:order-1 flex flex-col items-center my-10 md:my-0">
+                        <h4 class="mb-4 text-xl">Nos siga em nossas redes socias!</h4>
+                        <ul class="flex items-center justify-between">
+                            <li class="socials">
+                                <span>Facebook</span> <i class="bi bi-facebook icon"></i>
+                            </li>
+                            <li class="socials">
+                                <span>Instagram</span> <i class="bi bi-instagram icon"></i>
+                            </li>
+                            <li class="socials">
+                                <span>Twitter</span><i class="bi bi-twitter-x icon"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="order-3 md:order-2 md:mx-20 flex flex-col my-10 md:my-0">
+                        <h4 class="mb-4 text-xl text-center">Contato</h4>
+                        <ul class="text-center">
+                            <li>Telefone: (11) 94002-8922</li>
+                            <li>Email: projetoadotar@email.com</li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col gap-5 mx-auto justify-center items-center md:order-3 md:mx-20">
+                        <h4 class="mb-4 text-xl text-start">Como chegar</h4>
+                        <span class="text-center">Avenida Paulista, São Paulo - SP</span>
+                        <div id="map" class="md:w-80 md:h-48">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197491980411!2d-46.66136521969863!3d-23.561349506907874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1695776569022!5m2!1spt-BR!2sbr" 
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-full"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center mt-2">Yann Kadson &copy; <span id="date"></span> - Todos os direitos reservados
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

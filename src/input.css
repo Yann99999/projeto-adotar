@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.comunity-list{
+    @apply p-4 md:px-20 md:py-4 text-font-list cursor-pointer transition-all ease-in-out hover:bg-cyan-800 hover:text-white;
+}
+.selected{
+    @apply bg-cyan-main text-white;
+}
+.unselected{
+    @apply bg-white text-cyan-main;
+}
+.box{
+    @apply w-full p-10 text-start;
+}
+.card{
+    @apply h-96 w-275px md:w-450px md:h-460px bg-gray-200 rounded-sm overflow-hidden shadow-md shadow-gray-500 
+    relative;
+}
+.card-img-pet{
+    @apply object-cover hover:scale-105 ease-in transition-all w-full h-40 md:h-1/2; 
+}
+.adopt-link{
+    @apply absolute bottom-2 right-2 bg-cyan-main text-white px-2 md:px-10 
+    py-2 rounded-sm hover:bg-cyan-900 transition-all ease-in; 
+}
+.send-btn{
+    @apply  w-full border-2 border-green-main py-2 bg-green-main text-white
+     rounded-md text-xl font-semibold transition-all ease-in
+     hover:bg-green-700 hover:text-white hover:border-green-700 cursor-pointer;
+}
+.input-form{
+    @apply -mt-3 rounded-md border-2 border-slate-500 px-5 py-2 text-black focus:outline-green-main placeholder:text-gray-500;
+}
+
+.socials{
+    @apply cursor-pointer mx-5 flex-col-reverse flex items-center;
+}
+
+.icon{
+    @apply text-xl hover:scale-110 transition-all ease-in;
+}
